@@ -1,5 +1,11 @@
 <?php 
 
+/*
+  
+  O uso da classe Client proporciona uma maneira de tornar a classe MobileSniffer mas útil. MobileSniffer não precisa iniciar a si mesmo, e usando uma instrução de retorno, qualquer classe que chamar MobileSniffer simplesmente obterá os dados.
+
+*/
+
 // Habilita relatório de erros do arquivo php.ini
 ini_set("display_errors", "1");
 ERROR_REPORTING(E_ALL);
