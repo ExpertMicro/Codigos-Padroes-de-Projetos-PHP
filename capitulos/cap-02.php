@@ -43,6 +43,21 @@ Abstração é a ferramenta principal para lidar com a complexidade.Quanto mais 
   -Em termos práticos, no que concerne ao desenvolvimento, reforçar os tipos de dados garante que qualquer objeto (classe) usado em conjunto com um dado método, no qual tenha sido usado código de indução de tipos, terá determinada interface. Além do mais, se uma interface (seja uma classe abstrata ou uma interface) for usada na indução de tipos, o acoplamento será muito mais fraco; estará ligado à interface, e não a uma implementação específica.
   -Não é possível usar tipos escalares, como string ou int para indução de tipo, mas você podera usar arrays, interfaces e classes.
 
+  * Encapsulamento
+  -Encapsulamento corresponde ao processo de compartimentar os elementos de uma abstração, os quais constituem sua estrutura e seu comportamento, o encapsulamento serve para separa a interface contratual de uma abstração de sua implementação.
+  -Em PHP, o termo visibilidade refere-se ao acesso ás propriedades de uma classe (o termo acesso é usasdo em outras linguagens). Assim como em outras linguagens de POO, o PHP usa três tipos de visibilidade: privada(private), protegida(protected) e pública(public). As visibilidades são maneiras pelas quais os programas pder ser encapsulados e acessados.
+  
+  *Visibilidade Privada
+    -A maneira mais fácil de encapsular um elemento de programa é torná-lo privado(private). Isso significa que a propriedade poderá ser acessada somente de dentro da mesma classe; ela será visível somente aos elementos da mesma classe.
+
+
+  *Visibilidade Protegida
+    -A visibilidade protegida(protected) permite acesso tanto à mesma classe quanto à classes filhas. Você pode incorporar a visibilidade protegida tanto em métodos abstratos quanto concretos.
+
+
+  *Visibilidade Pública
+    -O acesso a um objeto encapsulado é feito pro meio da visibilidade pública(public). Para ser útil, ao menos alguns dos métodos de uma classe devem ser visíveis, mesmo que seja somente a função construtora. É evidente que todos os métodos construtores são públicos.
+
 */
 
 ?>

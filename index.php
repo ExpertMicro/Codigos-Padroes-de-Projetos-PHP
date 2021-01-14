@@ -22,4 +22,14 @@ require_once("config.php");
 
 //$worker = new UseProducts();
 //echo $worker;
+
+//$worker = new PrivateVis();
+
+//$worker = new ConcreteProtect();
+
+//$worker = new PublicVis();
+//$worker->unlock("secret");
+//$worker->unlock("duh");
+
+
 ?>
