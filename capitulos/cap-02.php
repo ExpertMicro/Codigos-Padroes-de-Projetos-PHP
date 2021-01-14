@@ -37,6 +37,12 @@ Abstração é a ferramenta principal para lidar com a complexidade.Quanto mais 
   -Uma classe que herda de outra classe é uma classe filha, e a classe abstrata (ou qualquer outra classe da qual outra classe herda) é a classe pai.
 
 
+* Indução de tipos: quase tipagem de dados
+  -Um dos elementos estruturais importantes da abstração em POO e em padrões de projeto é a tipagem de dados usada em uma interface, em vez de usá-la em uma implementação. Isso significa que a referência ao dado é feita por meio da classe pai, tipicamente uma interface ou uma classe abstrata (nesse contexto interface é usada para referenciar tanto uma interface quanto uma classe abstrata).
+  -A indução de tipo deve conter o nome de uma classe ou de uma interface. Ao trabalhar com padrões de projeto, uma classe abstrata ou interface é preferível porque ela não acoplará o tipo de uma implementação, somente a estrutura.
+  -Em termos práticos, no que concerne ao desenvolvimento, reforçar os tipos de dados garante que qualquer objeto (classe) usado em conjunto com um dado método, no qual tenha sido usado código de indução de tipos, terá determinada interface. Além do mais, se uma interface (seja uma classe abstrata ou uma interface) for usada na indução de tipos, o acoplamento será muito mais fraco; estará ligado à interface, e não a uma implementação específica.
+  -Não é possível usar tipos escalares, como string ou int para indução de tipo, mas você podera usar arrays, interfaces e classes.
+
 */
 
 ?>

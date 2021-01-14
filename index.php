@@ -16,7 +16,10 @@ require_once("config.php");
 //$worker = new ImplementAlpha();
 //$worker->useMethods();
 
-$useConstant = new ConSQL();
-$useConstant->testConnection();
+//$useConstant = new ConSQL();
+//$useConstant->testConnection();
 
+
+//$worker = new UseProducts();
+//echo $worker;
 ?>
