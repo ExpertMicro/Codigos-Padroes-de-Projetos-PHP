@@ -62,6 +62,10 @@ Abstração é a ferramenta principal para lidar com a complexidade.Quanto mais 
   *Getters e setters
     -Para preservar o encapsulamento, ao mesmo tempo em que se provê acessibilidade, os projetos com POO sugerem o uso de getters e setters. Em geral, o uso de getters e setters deve ser feito de modo criterioso; o excesso pode violar o encapsulamento.
 
+
+  *Herança
+    -A herançã, em seu nível mais básico, é um conceito simples. Uma classe que estende outra classe terá todas as propriedades e métodos de outra classe. Isso permite aos desenvolvedores criar novas classes que estendam a funcionalidade de outras classes.
+
 */
 
 ?>

@@ -32,7 +32,8 @@ require_once("config.php");
 //$worker->unlock("duh");
 
 
-$worker = new GetSet();
+//$worker = new GetSet();
 
+$worker = new Client02();
 
 ?>
