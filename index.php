@@ -32,4 +32,7 @@ require_once("config.php");
 //$worker->unlock("duh");
 
 
+$worker = new GetSet();
+
+
 ?>

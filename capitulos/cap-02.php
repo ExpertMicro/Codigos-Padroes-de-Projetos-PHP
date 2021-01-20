@@ -58,6 +58,10 @@ Abstração é a ferramenta principal para lidar com a complexidade.Quanto mais 
   *Visibilidade Pública
     -O acesso a um objeto encapsulado é feito pro meio da visibilidade pública(public). Para ser útil, ao menos alguns dos métodos de uma classe devem ser visíveis, mesmo que seja somente a função construtora. É evidente que todos os métodos construtores são públicos.
 
+
+  *Getters e setters
+    -Para preservar o encapsulamento, ao mesmo tempo em que se provê acessibilidade, os projetos com POO sugerem o uso de getters e setters. Em geral, o uso de getters e setters deve ser feito de modo criterioso; o excesso pode violar o encapsulamento.
+
 */
 
 ?>
