@@ -66,6 +66,10 @@ Abstração é a ferramenta principal para lidar com a complexidade.Quanto mais 
   *Herança
     -A herançã, em seu nível mais básico, é um conceito simples. Uma classe que estende outra classe terá todas as propriedades e métodos de outra classe. Isso permite aos desenvolvedores criar novas classes que estendam a funcionalidade de outras classes.
 
+  
+  *Polimorfismo
+    -Basicamente o polimorfismo refere-se a várias formas, mas não é muito útil, a menos que voçê o entenda no contexto da POO. O verdadeiro valor do polimorfismo está no fato de que objetos com a mesmo inferface podem ser chamados a realizar difirentes tarefas.
+
 */
 
 ?>

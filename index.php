@@ -34,6 +34,6 @@ require_once("config.php");
 
 //$worker = new GetSet();
 
-$worker = new Client02();
+//$worker = new Client02();
 
 ?>
